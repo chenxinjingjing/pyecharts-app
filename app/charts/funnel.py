@@ -1,5 +1,5 @@
 from pyecharts import Funnel, Page, Style
-from app.charts.constants import WIDTH, HEIGHT
+from app.charts.constants import WIDTH, HEIGHT  # app上一个上上层文件夹。可以用 from .. import WIDTH, HEIGHT
 
 
 def create_charts():
